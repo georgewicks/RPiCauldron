@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RPiCauldron", "RPiCauldron.vcxproj", "{AEFF1164-FF22-4CB8-90AA-CE0876913CB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEFF1164-FF22-4CB8-90AA-CE0876913CB2}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{AEFF1164-FF22-4CB8-90AA-CE0876913CB2}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{AEFF1164-FF22-4CB8-90AA-CE0876913CB2}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{AEFF1164-FF22-4CB8-90AA-CE0876913CB2}.Release|VisualGDB.Build.0 = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6AB0751-DEEE-4B0C-852D-6BAE60E53D84}
+	EndGlobalSection
+EndGlobal
