@@ -51,16 +51,16 @@ int	main(int argc, char *argv[])
 		cout << "Unable to create Monitor Thread: retval = " << retval << "\n";
 		return -1;
 	}
-	cout << "Monitor thread created\n";
+	cout << "Monitor thread created  CLDRN_Mon_ID = " << CLDRN_Mon_ID << "\n";
 	
 	// create controller
-	retval = pthread_create(&CLDRN_Mon_ID, NULL, &CLDRN_Control_Thread, NULL);
+	retval = pthread_create(&CLDRN_Ctrl_ID, NULL, &CLDRN_Control_Thread, NULL);
 	if (retval)
 	{
 		cout << "Unable to create Control Thread: retval = " << retval << "\n";
 		return -1;
 	}
-	cout << "Control thread created\n";
+	cout << "Control thread created  CLDRN_Ctrl_ID = " << CLDRN_Ctrl_ID << "\n";
 	
 	cout << "Bye!\n";
 	
