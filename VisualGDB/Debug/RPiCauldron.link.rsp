@@ -1,1 +1,0 @@
--o VisualGDB/Debug/RPiCauldron -Wl,-gc-sections  -Wl,--start-group VisualGDB/Debug/RPiCauldron.o -lpthread -Wl,--rpath='$ORIGIN' -Wl,--end-group

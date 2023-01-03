@@ -1,1 +1,0 @@
--ggdb -O0 -DDEBUG=1 -DDEBUG=1 -ffunction-sections -fdata-sections   -c "RPiCauldron.cpp" -o "VisualGDB/Debug/RPiCauldron.o" -MD -MP -MF "VisualGDB/Debug/RPiCauldron.dep"
